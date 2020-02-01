@@ -13,9 +13,10 @@ class School
   def grade(grade)
     @roster[grade]
   end 
-  def sort 
-    @roster.map do |level , value| 
-      level = value.sort.flatten
+  def sort
+    newhash = {}
+    @roster.each do  |key, value|
+      nehash[key]  = value.sort
     end 
+    newhash
   end 
-end 
