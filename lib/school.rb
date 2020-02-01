@@ -16,7 +16,7 @@ class School
   def sort
     newhash = {}
     @roster.each do  |key, value|
-      nehash[key]  = value.sort
+      newhash[key]  = value.sort
     end 
     newhash
   end 
