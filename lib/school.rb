@@ -8,7 +8,7 @@ class School
     if !@roster[grade]
        @roster[grade] = [ ]
      end
-       @roster[grade] << name
+       @roster[grade] << s_namename
   end
   
 end 
