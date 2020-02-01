@@ -10,5 +10,8 @@ class School
      end
        @roster[grade] << s_name
   end
+  def grade
+    
+  end 
   
 end 
