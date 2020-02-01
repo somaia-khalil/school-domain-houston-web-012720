@@ -15,7 +15,7 @@ class School
   end 
   def sort 
     @roster.map do |level , value| 
-      value.sort
+      level = value.sort.flatten
     end 
   end 
 end 
